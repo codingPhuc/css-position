@@ -20,8 +20,10 @@
   height: 200px;
   position: relative;
   z-index: 5;
-  bottom: 300px;
-  left:  100px;
+  /* bottom: px; */
+  /* left:  50px; */
+  right: 300px;
+  top: 100px; 
 }
 
 .blue {

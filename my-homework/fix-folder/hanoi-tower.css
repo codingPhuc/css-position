@@ -1,0 +1,174 @@
+/* #root {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.red {
+  background-color: red;
+  position: fixed;
+  top: 75px;
+  left:  75px;
+  width: 250px;
+  height: 250px;
+  z-index: 4;
+}
+
+.green {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  z-index: 5;
+  bottom: 410px;
+  left:  100px;
+}
+
+.blue {
+  background-color: blue;
+  width: 150px;
+  height: 150px;
+  position: fixed;
+  z-index: 6;
+  right: 445px;
+  bottom: 425px;
+}
+
+.yellow {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  right:  470px;
+  top: 150px;
+  z-index: 7;
+}
+
+.black {
+  background-color: black;
+  position: fixed;
+  left: 175px;
+  bottom: 490px;
+  width: 50px;
+  height: 50px;
+  z-index: 8;
+}
+
+.purple {
+  background-color: purple;
+  width: 300px;
+  height: 300px;
+  position: fixed;
+  right: 370px;
+  bottom: 350px;
+  z-index: 3;
+}
+
+.darkblue {
+  background-color: darkblue;
+  width: 350px;
+  height: 350px;
+  position: fixed;
+  right: 675px;
+  top:  30px;
+  z-index: 2;
+  right: 340px;
+}
+
+.grey {
+  background-color: grey;
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  bottom:  300px;
+  top: 10px;
+  z-index: 1;
+} */
+
+.red {
+  background-color: red;
+  position: fixed;
+  top: 75px;
+  left: 75px;
+  width: 250px;
+  height: 250px;
+  z-index: 4;
+}
+
+.green {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  top: 100px;
+  /* Adjusted to align with red */
+  left: 100px;
+  /* Adjusted to align with red */
+  z-index: 5;
+}
+
+.blue {
+  background-color: blue;
+  width: 150px;
+  height: 150px;
+  position: fixed;
+  top: 120px;
+  /* Adjusted to align with yellow */
+  left: 130px;
+  /* Adjusted to align with yellow */
+  z-index: 6;
+}
+
+.yellow {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 150px;
+  left: 150px;
+  z-index: 7;
+}
+
+.black {
+  background-color: black;
+  position: fixed;
+  top: 175px;
+  /* Adjusted to align with green */
+  left: 175px;
+  /* Adjusted to align with green */
+  width: 50px;
+  height: 50px;
+  z-index: 8;
+}
+
+.purple {
+  background-color: purple;
+  width: 300px;
+  height: 300px;
+  position: fixed;
+  top: 50px;
+  /* Adjusted to align with darkblue */
+  left: 50px;
+  /* Adjusted to align with darkblue */
+  z-index: 3;
+}
+
+.darkblue {
+  background-color: darkblue;
+  width: 350px;
+  height: 350px;
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  z-index: 2;
+}
+
+.grey {
+  background-color: grey;
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}

@@ -41,7 +41,8 @@
   width: 100px;
   height: 100px;
   position: absolute;
-   right:  455px;
+   /* right:  455px; */
+   left: 150px;
   top: 150px; 
   z-index: 7;
 }
@@ -62,7 +63,8 @@
   width: 300px;
   height: 300px;
   position: absolute;
-   right: 350px;
+   /* right: 350px */
+   left:  50px;
    top: 50px;
   /* bottom: 150px; */
   z-index: 3;
@@ -76,6 +78,7 @@
   right: 325px;
   z-index: 2;
   top: 25px;
+  left: 30px;
   /* right: 100px; */
 }
 
